@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => " git@github.com:cmavromoustakos/google-toolbox-for-mac.git", :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:cmavromoustakos/GoogleToolbaxForMac.git", :tag => "0.0.1" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
 
   # If this Pod uses ARC, specify it like so.
   #
-  s.requires_arc = true
+  s.requires_arc = false
 
   # If you need to specify any other build settings, add them to the
   # xcconfig hash.
