@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   #                   * Markdown format.
   #                   * Don't worry about the indent, we strip it!
   #                  DESC
-  s.homepage     = "http://EXAMPLE/GoogleToolboxForMac"
+  s.homepage     = "https://code.google.com/p/google-toolbox-for-mac/"
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
 
   # Specify the license type. CocoaPods detects automatically the license file if it is named
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retrieved.
   #
-  s.source       = { :git => "http://EXAMPLE/GoogleToolboxForMac.git", :tag => "0.0.1" }
+  s.source       = { :git => " git@github.com:cmavromoustakos/google-toolbox-for-mac.git", :tag => "0.0.1" }
 
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
